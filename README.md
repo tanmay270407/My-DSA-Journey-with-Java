@@ -32,13 +32,13 @@ Simple approaches (nothing too fancy)
 Problems grouped by topics
 
 📁 DSA-Daily-LeetCode
-Arrays
-Strings
-HashMap
-TwoPointers
-LinkedList
-Stack
-Recursion
+Arrays,
+Strings,
+HashMap,
+TwoPointers,
+LinkedList,
+Stack,
+Recursion,
 Others
 
 I’ll keep adding more folders as I learn new concepts.
