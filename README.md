@@ -31,7 +31,7 @@ Simple approaches (nothing too fancy)
 
 Problems grouped by topics
 
-📁 DSA-Daily-LeetCode
+📁 DSA-Daily-LeetCode:
 Arrays,
 Strings,
 HashMap,
