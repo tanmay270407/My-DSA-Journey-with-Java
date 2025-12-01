@@ -1,72 +1,63 @@
-🌱 My Daily DSA Practice (Beginner Journey)
+🌱 My Everyday DSA Practice
 
-Hi! This repository is my small corner on the internet where I upload the DSA questions I solve daily on LeetCode.
-I’m still a beginner, learning step by step, and this repo helps me stay consistent and motivated.
+This repo is where I upload the DSA questions I solve daily on LeetCode.
+I’m still learning, still figuring things out, and this space helps me stay consistent and motivated.
 
-I’m not perfect at DSA, but I’m trying to get better every day — one problem at a time. 🙂
+I’m not great at DSA yet — but I’m improving a little bit every day. 🙂
 
-✨ Why I’m Doing This
+✨ Why I Started This Journey
 
-I started this because:
+I began this because:
 
-I want to build a strong foundation in DSA
+I want a strong grip on DSA
 
-I want to improve my logical thinking
+I want to think better and solve problems smarter
 
-I want to get comfortable with coding interviews
+I want to feel confident during coding interviews
 
-And most importantly… I want to make learning a daily habit
+And honestly… I want to build a daily learning habit
 
-Even if I solve just one question a day, it still counts as progress. 💪
+Even one small problem a day is still progress. 💪
 
-📂 What’s Inside This Repo
+📂 What You’ll Find Here
 
-You will find:
+Inside this repo, you’ll see:
 
 My daily LeetCode solutions
 
-Beginner-friendly code
+Beginner-level code
 
-Simple approaches (nothing too fancy)
+Easy-to-follow logic
 
-Problems grouped by topics
+Problems sorted by different topics
 
-📁 DSA-Daily-LeetCode:
-Arrays,
-Strings,
-HashMap,
-TwoPointers,
-LinkedList,
-Stack,
-Recursion,
-Others
+📁 Current Topics
 
-I’ll keep adding more folders as I learn new concepts.
+Arrays, Strings, HashMap, TwoPointers, LinkedList, Stack, Recursion, Others
+More folders will keep coming as I learn new things.
 
-🛠️ Tools / Language I Use
+🛠️ What I’m Using
 
-Mostly Java
-(And I’ll explore more languages once I get comfortable.)
+Mostly Java for now.
+I’ll explore other languages once I get more confident.
 
-🎯 My Goals (Honestly)
+🎯 My Real Goals
 
-Become consistent with DSA
+Stay consistent with DSA
 
-Slowly move from easy → medium → hard problems
+Slowly level up from easy → medium → hard
 
-Understand concepts properly instead of just memorizing solutions
+Understand concepts instead of copying solutions
 
-Build confidence in coding interviews
+Build up interview confidence
 
-I’m not in a hurry — I just want to get better slowly and steadily.
+No shortcuts — just steady growth.
 
-💬 A Small Note
+💬 A Little Note
 
-I’m still learning, so some solutions might be basic or not fully optimized.
-But that’s okay. This is my learning journey, and I’ll improve with time.
+Since I’m still learning, some solutions might be simple or not fully optimized.
+But that’s part of the process, and I’m okay with that.
 
-⭐ If You’re Reading This…
+⭐ If You Found This
 
-Thanks for stopping by!
-If you find my journey relatable or helpful, feel free to give the repo a star.
-It motivates me more than you think. 😊
+Thanks for taking the time to check out my journey!
