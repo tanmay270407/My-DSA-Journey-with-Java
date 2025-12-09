@@ -6,9 +6,11 @@ class Solution {
         }   
             
         int maxReach = 0;  
-                 
+
         for (int i = 0; i < len; i++) {
-            if (i > maxReach) return false;         
+            if (i > maxReach){
+                return false;   
+            }      
             maxReach = Math.max(maxReach, i + nums[i]);
         }
 
