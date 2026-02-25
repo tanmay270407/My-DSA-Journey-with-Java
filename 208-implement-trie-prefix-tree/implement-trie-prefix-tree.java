@@ -1,64 +1,63 @@
 class Trie {
     class TrieNode {
-        TrieNode[] children = new TrieNode[26];
+        TrieNode[] children=new TrieNode[26];
         boolean isEnd;
     }
 
     private TrieNode root;
 
-    public Trie() {
-        root = new TrieNode();
+    public Trie(){
+        root=new TrieNode();
         
     }
     
-    public void insert(String word) {
-        TrieNode node = root;
+    public void insert(String word){
+        TrieNode node=root;
 
-        for (char c : word.toCharArray()) {
-            int idx = c - 'a';
+        for(char c : word.toCharArray()){
+            int idx=c-'a';
 
-            if (node.children[idx] == null) {
-                node.children[idx] = new TrieNode();
+            if(node.children[idx]==null){
+                node.children[idx]=new TrieNode();
             }
 
-            node = node.children[idx];
+            node=node.children[idx];
         }
 
-        node.isEnd = true;
+        node.isEnd=true;
         
     }
     
-    public boolean search(String word) {
-        TrieNode node = root;
+    public boolean search(String word){
 
-        for (char c : word.toCharArray()) {
-            int idx = c - 'a';
+        TrieNode node=root;
 
-            if (node.children[idx] == null) {
+        for(char c:word.toCharArray()){
+            int idx=c-'a';
+
+            if(node.children[idx]==null){
                 return false;
             }
 
-            node = node.children[idx];
+            node=node.children[idx];
         }
-
         return node.isEnd;
     }
     
-    public boolean startsWith(String prefix) {
-        TrieNode node = root;
+    public boolean startsWith(String prefix){
 
-        for (char c : prefix.toCharArray()) {
-            int idx = c - 'a';
+        TrieNode node=root;
 
-            if (node.children[idx] == null) {
+        for(char c : prefix.toCharArray()){
+            int idx=c-'a';
+
+            if(node.children[idx]==null){
                 return false;
             }
-
-            node = node.children[idx];
+            node=node.children[idx];
         }
 
         return true;
-        
     }
 }
 
