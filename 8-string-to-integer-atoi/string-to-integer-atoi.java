@@ -9,7 +9,7 @@ class Solution {
             i++;
         }
 
-        if(i<n && (s.charAt(i)=='+' || s.charAt(i)=='-')) {
+        if(i<n && (s.charAt(i)=='+' || s.charAt(i)=='-')){
             if(s.charAt(i)=='-'){
                 sign=-1;
             }
