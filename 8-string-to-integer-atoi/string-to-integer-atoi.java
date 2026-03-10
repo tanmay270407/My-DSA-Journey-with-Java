@@ -9,9 +9,9 @@ class Solution {
             i++;
         }
 
-        if (i < n && (s.charAt(i) == '+' || s.charAt(i) == '-')) {
-            if (s.charAt(i) == '-') {
-                sign = -1;
+        if(i<n && (s.charAt(i)=='+' || s.charAt(i)=='-')) {
+            if(s.charAt(i)=='-'){
+                sign=-1;
             }
             i++;
         }
@@ -22,7 +22,7 @@ class Solution {
             if (sign * result > Integer.MAX_VALUE) {
                 return Integer.MAX_VALUE;
             }
-            if (sign * result < Integer.MIN_VALUE) {
+            if(sign*result<Integer.MIN_VALUE) {
                 return Integer.MIN_VALUE;
             }
 
