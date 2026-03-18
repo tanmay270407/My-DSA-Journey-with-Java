@@ -7,7 +7,7 @@ class Solution {
         int match = 0;
         
         while(i<s.length()){
-            if(j<p.length()&&(p.charAt(j)=='?'||p.charAt(j)==s.charAt(i))){
+            if(j<p.length()&&(p.charAt(j)=='?'||p.charAt(j)==s.charAt(i))) {
                 i++;
                 j++;
             } 
