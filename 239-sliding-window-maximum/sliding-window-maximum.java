@@ -17,8 +17,6 @@ class Solution {
                 result[i-k+1]=nums[dq.peekFirst()];
             }
         }
-        
         return result;
-        
     }
 }
