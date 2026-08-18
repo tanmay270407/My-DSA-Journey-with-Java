@@ -1,21 +1,18 @@
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-        return search(matrix, target, 0, matrix[0].length - 1);
-    }
+        return Searchmat(matrix, target, matrix[0].length-1,0);
 
-    public boolean search(int[][] matrix, int target, int row, int col) {
-        if (row >= matrix.length || col < 0) {
+    }
+    public boolean Searchmat(int[][] matrix, int target, int c, int r){
+        if(c<0 || r==matrix.length){
             return false;
         }
-
-        if (matrix[row][col] == target) {
+        if(matrix[r][c]==target){
             return true;
         }
-
-        if (matrix[row][col] > target) {
-            return search(matrix, target, row, col - 1);
+        if(matrix[r][c]>target){
+            return Searchmat(matrix, target, c-1, r);
         }
-
-        return search(matrix, target, row + 1, col);
+        return Searchmat(matrix, target, c, r+1);
     }
 }
