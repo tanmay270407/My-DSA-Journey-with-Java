@@ -7,20 +7,15 @@ class Solution {
             return 0;
         }
 
-        // Player 1 takes left
         int left = nums[i] - solve(nums, i + 1, n);
-
-        // Player 1 takes right
         int right = nums[n] - solve(nums, i, n - 1);
 
-        // Choose the better option
         return Math.max(left, right);
     }
 
     public boolean predictTheWinner(int[] nums) {
 
         int n = nums.length - 1;
-
         return solve(nums, 0, n) >= 0;
     }
 }
